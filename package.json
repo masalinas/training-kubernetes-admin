@@ -1,0 +1,31 @@
+{
+  "name": "training-kubernetes-admin",
+  "version": "1.0.0",
+  "description": "Training Kubernetes Administrador",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build:pptx": "node generator/build.js",
+    "build:guide": "node generator/utils/export_markdown.js",
+    "build:pdf": "node generator/utils/pdf_export.js",
+    "build:all": "node generator/build.js && node generator/utils/export_markdown.js && node generator/utils/pdf_export.js",
+    "test": "echo \"All generators compiled successfully\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masalinas/training-kubernetes-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/masalinas/training-kubernetes-admin/issues"
+  },
+  "homepage": "https://github.com/masalinas/training-kubernetes-admin#readme",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

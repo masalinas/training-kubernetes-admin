@@ -1,7 +1,24 @@
 # Curso de Administración de Kubernetes (30 Horas)
 ## Clústeres, Seguridad, Observabilidad y Operaciones de Día 2
 
-Este repositorio contiene el material técnico completo y el motor de generación automatizado para impartir el curso oficial de **Administración de Kubernetes (30 Horas)**, basado en el temario oficial de 9 módulos.
+<div align="center">
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.31-326CE5?logo=kubernetes&logoColor=white)
+![Duración](https://img.shields.io/badge/Duración-30_Horas-0ea5e9)
+![Certificación](https://img.shields.io/badge/Certificación-CKA_%7C_CKS-blue?logo=linuxfoundation&logoColor=white)
+![Laboratorio](https://img.shields.io/badge/Entorno-Kubeadm_%2B_Minikube-326CE5?logo=virtualbox&logoColor=white)
+![Módulos](https://img.shields.io/badge/Módulos-11_Bloques_(107_Slides)-orange)
+![PPTX](https://img.shields.io/badge/PPTX-107_Diapositivas-D24726?logo=microsoftpowerpoint&logoColor=white)
+![Deliverable](https://img.shields.io/badge/PDF-kubernetes--administracion--presentacion.pdf-red?logo=adobeacrobatreader)
+![Deliverable](https://img.shields.io/badge/PDF-GUIA__DEL__DOCENTE.pdf-red?logo=adobeacrobatreader)
+
+**Material Docente Oficial y Motor de Generación:** Programa formativo completo de 30 horas lectivas, 11 módulos temáticos (107 diapositivas en PPTX/PDF), guía metodológica del docente de 78 páginas maquetadas, estrategia dual de laboratorio (Kubeadm en VirtualBox + Minikube) y preparación técnica orientada a certificaciones CKA y CKS.
+
+</div>
+
+---
+
+Este repositorio contiene el material técnico completo y el motor de generación automatizado para impartir el curso oficial de **Administración de Kubernetes (30 Horas)**, basado en el temario oficial de 9 módulos temáticos (11 módulos en total incluyendo introducción y conclusiones).
 
 ---
 

@@ -481,11 +481,11 @@ function renderYamlAnalysis(slide, data, pptx) {
   const tagText = data.filename ? `YAML · ${data.filename}` : "MANIFEST YAML SPEC";
   slide.addText(tagText, {
     x: marginX + 0.25,
-    y: topY + 0.18,
+    y: topY + 0.16,
     w: leftW - 0.5,
-    h: 0.25,
+    h: 0.22,
     fontFace: THEME.fonts.title,
-    fontSize: 10,
+    fontSize: 9.5,
     bold: true,
     color: THEME.colors.navyPill,
     margin: 0,
@@ -495,21 +495,25 @@ function renderYamlAnalysis(slide, data, pptx) {
   if (data.yamlCode) {
     const lineCount = (data.yamlCode || "").split("\n").length;
     let codeFontSize = 9.3;
-    if (lineCount > 25) {
-      codeFontSize = 7.0;
-    } else if (lineCount > 20) {
+    if (lineCount > 28) {
+      codeFontSize = 6.2;
+    } else if (lineCount > 25) {
+      codeFontSize = 6.7;
+    } else if (lineCount > 22) {
+      codeFontSize = 7.3;
+    } else if (lineCount > 18) {
       codeFontSize = 7.8;
-    } else if (lineCount > 15) {
+    } else if (lineCount > 14) {
       codeFontSize = 8.4;
-    } else if (lineCount > 12) {
+    } else if (lineCount > 11) {
       codeFontSize = 8.8;
     }
 
     slide.addText(data.yamlCode, {
       x: marginX + 0.25,
-      y: topY + 0.48,
+      y: topY + 0.42,
       w: leftW - 0.5,
-      h: availH - 0.65,
+      h: availH - 0.55,
       fontFace: THEME.fonts.code,
       fontSize: codeFontSize,
       color: THEME.colors.textDark,
